@@ -24,7 +24,7 @@ class Users
     private $name;
 
     /**
-     * @ORM\OneToMany(targetEntity="App\Entity\Questions", mappedBy="users")
+     * @ORM\OneToMany(targetEntity="App\Entity\Questions", mappedBy="users" )
      */
     private $user_id;
 

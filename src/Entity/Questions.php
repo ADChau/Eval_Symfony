@@ -34,8 +34,8 @@ class Questions
     private $question_id;
 
     /**
-     * @ORM\ManyToOne(targetEntity="App\Entity\Users", inversedBy="user_id")
-     * @ORM\JoinColumn(nullable=false)
+     * @ORM\ManyToOne(targetEntity="App\Entity\Users", inversedBy="user_id" )
+     * @ORM\JoinColumn(nullable=true)
      */
     private $users;
 
